@@ -1,5 +1,5 @@
 # KimEtAl2024
-Data analysis code for Kim, Daie, Li et al A combinatorial neural code for long-term motor memory
+Data analysis code for Kim, Daie, Li et al A combinatorial neural code for long-term motor memory.
 Updated 18 Dec 2023
 
 These are scripts to analyze key results in the paper. You should download 'Source_codes' folder with codes inside it to run the scripts.
