@@ -10,6 +10,8 @@ We used CellReg package (Sheintuch et al 2017) to find co-registered neurons fro
 We used OASIS package (Friedrich et al 2017) to calculated deconvolved dF/F0.
 
 STEP2: Sorting out reliable co-registered neurons
+We further sorted out 'reliable' co-registered neurons for further analyses. We computed Pearson's correlation between concatenated (lick left and lick right) mean PSTHs from 1st/2nd halves. We only used reliable (R>=0.5) from at least one imaging session. 
 
 STEP3: Estimating Sample CD, Delay CD, Response CD.
-We estimated a coding direction (CD) which is maximally separating different trials types (anterior pole vs. posterior pole: Sample CD; lick left versus lick right: Delay CD and Response CD) in an epoch-specific manner. We used 
+We estimated a coding direction (CD) which is maximally separating different trials types (anterior pole stimulus vs. posterior pole stimulus: Sample CD; lick left versus lick right: Delay CD and Response CD) in an epoch-specific manner. We used Li/Daie et al 2016 method to determine CD.
+Based on the estimated CD, we built an epoch-specific linear classifier to decode different trial types. We used Chen/Kang et al 2021 method to build decoder.
