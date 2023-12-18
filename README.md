@@ -2,7 +2,11 @@
 Data analysis code for Kim, Daie, Li et al A combinatorial neural code for long-term motor memory.
 Updated 18 Dec 2023
 
-These are scripts to analyze key results in the paper. You should download 'Source_codes' folder with codes inside it to run the scripts.
+These are scripts to analyze key results in the paper. 
+Before running codes, make sure:
+1. Download 'Source_codes' folder with codes inside it to run the scripts.
+2. Download the large data associated with these codes from the Zenodo link
+
 Brief descriptions about each script below:
 
 STEP1: Identification of co-registered neurons across imaging sessions and saving mat files (deconvolved dF/F0 PSTH of individual trial types) 
