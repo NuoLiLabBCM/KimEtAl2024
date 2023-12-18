@@ -5,7 +5,12 @@ Updated 18 Dec 2023
 These are MATLAB scripts to analyze key results in the paper. 
 Before running codes, make sure:
 1. Download 'Source_codes' folder with codes inside it to run the scripts.
-2. Download the large data associated with these codes from the Zenodo link
+2. Download the large data associated with these codes from the Zenodo links.
+- Imaging dataset 1 (2023_07_07) https://zenodo.org/uploads/10402559
+- Imaging dataset 2 (2023_07_25) https://zenodo.org/uploads/10402610
+3. Make '2023_07_07' folder and put imaging dataset 1
+4. Make '2023_07_25' folder and put imaging dataset 2
+5. Run STEP1, STEP2, STEP3 scripts one after another.
 
 Brief descriptions about each script below:
 
