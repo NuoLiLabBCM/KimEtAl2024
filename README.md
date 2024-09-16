@@ -1,5 +1,6 @@
 # KimEtAl2024
 Data analysis coder for "A combinatorial neural code for long-term motor memory." Jae-Hyun Kim, Kayvon Daie, Nuo Li. Nature 2024
+
 Updated 17 Sep 2024 by Jae-Hyun Kim
 
 All pre-processed imaging dataset (233 imaging sessions from 14 mice) were deposited at DANDI (https://doi.org/10.48324/dandi.001188/0.240912.1925).
