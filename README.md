@@ -1,7 +1,9 @@
 # KimEtAl2024
 Data analysis coder for "A combinatorial neural code for long-term motor memory." Jae-Hyun Kim, Kayvon Daie, Nuo Li. Nature 2024
 
-Updated 17 Sep 2024 by Jae-Hyun Kim
+Updated 6 Jan 2026 by Jae-Hyun Kim (v2)
+- I further included information about 'co-registration result across sessions (CellReg output)' to run the codes.
+Updated 17 Sep 2024 by Jae-Hyun Kim (v1)
 
 All pre-processed imaging dataset (233 imaging sessions from 14 mice) were deposited at DANDI (https://doi.org/10.48324/dandi.001188/0.240912.1925).
 These dataset is output of Suite2P package. Further running of CellReg and OASIS are required to find co-registered neurons across sessions and calculate deconvolved dF/F0, respectively.
@@ -14,7 +16,11 @@ Before running codes, make sure:
 - Imaging dataset 2 (2023_07_25) https://zenodo.org/uploads/10402610
 3. Make '2023_07_07' folder and put imaging dataset 1
 4. Make '2023_07_25' folder and put imaging dataset 2
-5. Run STEP1, STEP2, STEP3 scripts one after another.
+5. Download CellReg output from the Zenodo link.
+- https://zenodo.org/records/18168327
+6. Make 'Multi_sessions/2023_07_07_2023_07_25/plane1' folder and put 'plane1.mat' and change its file name as 'single_cell_matched.mat'
+7. Repeat for 'plane2.mat', 'plane3.mat', 'plane4.mat', 'plane5.mat' files.
+8. Run STEP1, STEP2, STEP3 scripts one after another.
 
 Brief descriptions about each script below:
 
